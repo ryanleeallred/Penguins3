@@ -16,17 +16,18 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            # Big Title
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+## Smaller TItle
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
+### smallerer Title
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+paragraph text
 
+[google.com](http://google.com)
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Let\'s Classify Penguins!', color='primary'), href='/predictions')
     ],
     md=4,
 )
