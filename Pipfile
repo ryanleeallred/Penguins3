@@ -10,12 +10,12 @@ dash = "==1.9.1"
 dash-bootstrap-components = "*"
 gunicorn = "*"
 plotly = "*"
+numpy = "*"
 pandas = "*"
 joblib = "==1.0.1"
 scikit-learn = "==0.22.2.post1"
 category-encoders = "==2.2.2"
 importlib-metadata = "==1.7.0"
-Cython = "*"
 
 [requires]
 python_version = "3"
